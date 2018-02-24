@@ -6,3 +6,7 @@ Helios/bin/
 Helios/obj/
 
 \.DS_Store
+
+Helios\.Tests/bin/
+
+Helios\.Tests/obj/

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Sun\Sun\Sun.csproj" />
+    <ProjectReference Include="..\Helios\Helios.csproj">
+      <Project>{47589F26-CBF0-4B3E-93BA-A5E0FD0A83A2}</Project>
+      <Name>Helios</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

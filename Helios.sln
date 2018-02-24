@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helios", "Helios\Helios.csproj", "{47589F26-CBF0-4B3E-93BA-A5E0FD0A83A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helios.Tests", "Helios.Tests\Helios.Tests.csproj", "{E3B61812-DB61-49AA-B000-F8D80B755786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sun", "..\Sun\Sun\Sun.csproj", "{A6DFDE50-E937-4A66-B912-E4143365BF45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{47589F26-CBF0-4B3E-93BA-A5E0FD0A83A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47589F26-CBF0-4B3E-93BA-A5E0FD0A83A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47589F26-CBF0-4B3E-93BA-A5E0FD0A83A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B61812-DB61-49AA-B000-F8D80B755786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B61812-DB61-49AA-B000-F8D80B755786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B61812-DB61-49AA-B000-F8D80B755786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B61812-DB61-49AA-B000-F8D80B755786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DFDE50-E937-4A66-B912-E4143365BF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DFDE50-E937-4A66-B912-E4143365BF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DFDE50-E937-4A66-B912-E4143365BF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DFDE50-E937-4A66-B912-E4143365BF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

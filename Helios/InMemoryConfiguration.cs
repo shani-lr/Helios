@@ -4,7 +4,7 @@ using IdentityServer4.Test;
 
 namespace Helios
 {
-    public class InMemoryConfiguration
+    public static class InMemoryConfiguration
     {
         public static IEnumerable<ApiResource> ApiResources()
         {
